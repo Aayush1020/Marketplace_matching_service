@@ -1,0 +1,92 @@
+[
+  {
+    "name" : "com.vitea.marketplace.cli.MarketplaceCLI",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true
+  },
+  {
+    "name" : "com.vitea.marketplace.cli.MarketplaceCLI$CancelOrderCommand",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "orderId" }
+    ]
+  },
+  {
+    "name" : "com.vitea.marketplace.cli.MarketplaceCLI$CreateItemCommand",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "name" }
+    ]
+  },
+  {
+    "name" : "com.vitea.marketplace.cli.MarketplaceCLI$CreateUserCommand",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "name" }
+    ]
+  },
+  {
+    "name" : "com.vitea.marketplace.cli.MarketplaceCLI$QueryMetricsCommand",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true
+  },
+  {
+    "name" : "com.vitea.marketplace.cli.MarketplaceCLI$QueryOrderBookCommand",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "itemIdOrName" }
+    ]
+  },
+  {
+    "name" : "com.vitea.marketplace.cli.MarketplaceCLI$QueryTradeHistoryCommand",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "itemIdOrName" }
+    ]
+  },
+  {
+    "name" : "com.vitea.marketplace.cli.MarketplaceCLI$SubmitOrderCommand",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "itemIdOrName" },
+      { "name" : "orderTypeStr" },
+      { "name" : "priceString" },
+      { "name" : "quantity" },
+      { "name" : "sideStr" },
+      { "name" : "userIdOrName" }
+    ]
+  },
+  {
+    "name" : "picocli.CommandLine$AutoHelpMixin",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "fields" : [
+      { "name" : "helpRequested" },
+      { "name" : "versionRequested" }
+    ]
+  }
+]

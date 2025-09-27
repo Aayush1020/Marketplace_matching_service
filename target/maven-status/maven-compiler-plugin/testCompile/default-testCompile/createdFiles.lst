@@ -1,0 +1,5 @@
+com/vitea/marketplace/tests/DataLoaderTest.class
+com/vitea/marketplace/tests/TradeTest.class
+com/vitea/marketplace/tests/CliCommandTest.class
+com/vitea/marketplace/tests/OrderServiceTest.class
+com/vitea/marketplace/tests/MatchingEngineTest.class
